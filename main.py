@@ -55,6 +55,12 @@ if __name__ == "__main__":
                     end = 1
                 elif board[2]==board[4] and board[4]==board[6] and board[2] != -1:
                     end = 1
+                elif board[0]==board[3] and board[3]==board[6] and board[6] != -1:
+                    end = 1
+                elif board[1]==board[4] and board[4]==board[7] and board[7] != -1:
+                    end = 1
+                elif board[2]==board[5] and board[5]==board[8] and board[8] != -1:
+                    end = 1
                 
                 
         
